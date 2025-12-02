@@ -15,7 +15,9 @@ cd path\to\library_management_project\library_management_project
 make
 .\library.exe
 ```
+Set-Location -LiteralPath 'C:\Users\ekas\Documents\library_management_project[1]\library_management_project' ; .\library.exe
 
 Notes:
 - The build script requires `gcc` in your PATH (MinGW / MSYS2).
 - The Makefile will also build `library.exe` when `make` is available.
+
